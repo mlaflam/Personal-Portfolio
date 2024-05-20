@@ -1,0 +1,256 @@
+.contact-page {
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-page-contact-section {
+  background-color: rgb(222, 239, 218);
+  border-radius: 7px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.25);
+
+  min-width: 350px;
+  width: 600px;
+  padding: 20px;
+
+  backdrop-filter: blur(10px);
+  /** border: 1px solid rgba(255, 255, 255, 0.1); **/
+
+  display: flex;
+  justify-content: start;
+}
+
+.section-title {
+  font-size: 35px;
+  font-family: Roboto;
+  margin-bottom: 13px;
+}
+
+.errors {
+  font-size: 18px;
+  margin-left: 5px;
+  font-weight: 500;
+  color: red;
+}
+
+.contact-section-icon {
+  height: 27px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 11px;
+  margin-left: -10px;
+  margin-right: 10px;
+}
+
+.section-container {
+  display: flex;
+
+  align-items: center;
+  /* Align items in the center vertically */
+  margin-bottom: 10px;
+  padding-left: 25px;
+}
+
+.section-container-two {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* Align items in the center vertically */
+  margin-bottom: 10px;
+  padding-right: 20px;
+}
+
+.section-container-contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* Align items in the center vertically */
+  margin-bottom: 10px;
+  padding-left: -50px;
+}
+
+
+/** CONTACT US**/
+.line {
+  width: 85%;
+  margin-bottom: 50px;
+  font-weight: 400;
+  border: 1px solid #d7d7d7;
+  border-radius: 5px;
+}
+
+.about-page-contact-section {
+  background-color: rgb(222, 239, 218);
+  border-radius: 7px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.25);
+
+  min-width: 350px;
+  width: 600px;
+  padding: 20px;
+
+  backdrop-filter: blur(10px);
+  /** border: 1px solid rgba(255, 255, 255, 0.1); **/
+
+  display: flex;
+  
+}
+
+
+
+.another-one {
+  width: 100%;
+  display: block;
+}
+
+.contact-form-block {
+  display: inline-block;
+  margin-top: 30px;
+  width: 95%;
+
+}
+
+.contact-block {
+  margin-top: -30px;
+  width: 95%;
+  margin-left: 30px;
+  display: flex;
+  justify-content: start;
+}
+
+@media (max-width:1000px) {
+  .about-page-contact-section {
+    width: 55%;
+  }
+
+  .contact-block {
+    margin-left: 10px;
+
+  }
+
+}
+
+.contact-form-top-block {
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+.contact-form-bottom-block {
+  width: 100%;
+  display: inline-block;
+}
+
+.contact-form-top-block-two {
+  display: block;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+
+.contact-form-inner-block {
+  width: 100%;
+  margin-right: 10px;
+  margin-bottom: 15px;
+}
+
+.name-info,
+.email-info,
+.message-info,
+.username-info {
+  border-radius: 5px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
+}
+
+.contact-info {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  font-family: Roboto;
+  font-size: 18px;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.name-info,
+.email-info,
+.username-info {
+  display: flex;
+  font-size: 20px;
+  padding: 14px;
+
+  min-width: 100px;
+  width: 95%;
+  outline: none;
+  border: none;
+
+  transition: box-shadow 0.15s;
+}
+
+.name-info {
+  margin-right: 30px;
+}
+
+
+.name-info:focus-within,
+.email-info:focus-within,
+.message-info:focus-within {
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.75);
+}
+
+.message-info {
+  font-size: 20px;
+  font-family: Roboto;
+
+  min-width: 150px;
+  width: 95%;
+  height: 150px;
+
+  padding: 14px;
+  outline: none;
+  resize: none;
+  border: none;
+
+  transition: box-shadow 0.15s;
+
+}
+
+@media (min-width:300px) and (max-width: 1000px) {
+  .contact-form-top-block-two {
+    display: block;
+  }
+
+}
+
+
+.button-block {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-button {
+  background: rgb(88, 141, 76);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+
+  font-size: 18px;
+  width: 83%;
+  margin-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
+}
+
+.contact-button:hover {
+  background: rgb(84, 135, 71);
+}
+
+.contact-button:active {
+  background: rgb(82, 133, 70);
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.75);
+}
