@@ -15,7 +15,8 @@
   right: 0;
   z-index: 100;
 
-  background-color: rgb(222, 239, 218);
+  /* background-color: rgb(222, 239, 218); */
+  background-color: rgb(70, 138, 55);
   border-color: black;
   border-width: thin;
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.25);
@@ -34,15 +35,75 @@
 
 .header-link {
   text-decoration: none;
-  color: green;
+  color: black;
   font-size: 18px;
   margin-right: 50px;
 }
 
 .header-link:hover {
-  color: rgb(0, 72, 0);
+  color: rgb(8, 61, 8);
 }
 
 .header-link:active {
-  color: rgb(1, 36, 1);
+  color: rgb(1, 32, 1);
+}
+
+.home-link {
+  font-size: 16px;
+  margin-bottom: 5px;
+  line-height: 20px;
+  text-decoration: none;
+  color: green;
+}
+
+.home-link:hover {
+  color: rgb(8, 61, 8);
+}
+
+.home-link:active {
+  color: rgb(1, 32, 1);
+}
+
+.home-page {
+  margin-top: 70px;
+  padding-top: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-info {
+  margin-right: 50px;
+  width: 450px;
+}
+
+.info-hello {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.info-name {
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.info-career {
+  font-size: 25px;
+  margin-bottom: 15px;
+  color: green;
+}
+
+.info-blurb {
+  font-size: 16px;
+  margin-bottom: 5px;
+  line-height: 20px;
+}
+
+.home-picture {
+  margin-left: 150px;
+}
+
+.photo {
+  border-radius: 30px;
+  height: 450px;
 }
